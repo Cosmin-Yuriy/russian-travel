@@ -12,7 +12,7 @@
 
 /* => 320 */
 @media screen and (max-width: 767px) {
-  .header__logo img {
+  .header__logo {
     max-width: 142px;
   }
 }
