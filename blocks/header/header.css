@@ -1,0 +1,28 @@
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, min-content);
+  padding-top: 28px;
+  justify-items: center;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+  
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 16px;
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+}

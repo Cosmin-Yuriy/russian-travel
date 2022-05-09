@@ -1,0 +1,30 @@
+.places-blocks__grids_text-down {
+  margin: 0;
+  grid-column: 2/2;
+  grid-row: 3/3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+  .places-blocks__grids_text-down {
+    font-size: 16px;
+  }
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .places-blocks__grids_text-down {
+    font-size: 16px;
+    grid-column: 1/1;
+    grid-row: 5/5;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

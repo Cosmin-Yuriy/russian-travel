@@ -1,0 +1,30 @@
+.description__title {
+  margin: 0;
+  font-size: max(32px, min(54px, calc(100vw * 4 / 50)));
+  line-height: 107%;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .description__title {
+    padding-right: 18%;
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+  .description__title {
+    min-width: 0;
+    padding-right: 1%;
+  }
+}

@@ -1,0 +1,29 @@
+/* Подключаем шрифты */
+@import "../fonts/Inter-3_19/Inter_Web/inter.css";
+
+body {
+  background-color: #383838;
+}
+
+.page {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  font-family: 'Inter';
+  /* width: 1280px; */
+  justify-content: center;
+  color: white;
+  width: 1280px;
+}
+
+.photo-grid-images {
+  display: grid;
+  padding-bottom: 100%;
+  padding: 92px 48px 0 48px;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, 1fr); */
+  /* grid-template-rows: repeat(auto-fit, 1fr); */
+  gap: 116px;
+}

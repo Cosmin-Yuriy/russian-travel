@@ -1,0 +1,34 @@
+.footer {
+  width: 1184px;
+  margin: auto;
+  padding: 92px 0 24px 0;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 984px;
+    padding: 92px 24px 24px 24px;
+    box-sizing: border-box;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding-top: 88px;
+    max-width: 720px;
+    box-sizing: border-box;
+    padding: 88px 0 24px 0;
+  }
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 88px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 64px 0 24px 0;
+  }
+}

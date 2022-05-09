@@ -1,0 +1,14 @@
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  /* убираем лишнее у ul */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language a {
+  color: white;
+}
