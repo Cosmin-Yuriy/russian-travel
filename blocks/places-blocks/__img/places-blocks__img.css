@@ -1,4 +1,4 @@
-.places-blocks__grids_img {
+.places-blocks__img {
   grid-column: 1/1;
   grid-row: 2 / span 3;
   width: 100%;
@@ -16,7 +16,7 @@
 
 /* => 320 */
 @media screen and (max-width: 767px) {
-  .places-blocks__grids_img {
+  .places-blocks__img {
     grid-column: 1/1;
     grid-row: 3/3;
     padding-top: 0;

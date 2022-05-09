@@ -1,4 +1,4 @@
-.places-blocks__grids_text-top {
+.places-blocks__text-top {
   padding-top: 48px;
   padding-bottom: 26px;
   margin: 0;
@@ -16,19 +16,19 @@
 
 /* 768 */
 @media screen and (max-width: 1023px) {
-  .places-blocks__grids_text-top {
+  .places-blocks__text-top {
     padding-bottom: 25px;
     font-size: 16px;
   }
 
-  .places-blocks__grids_text-top:last-child {
+  .places-blocks__text-top:last-child {
     padding-bottom: 0;
   }
 }
 
 /* => 320 */
 @media screen and (max-width: 767px) {
-  .places-blocks__grids_text-top {
+  .places-blocks__text-top {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 16px;
@@ -38,7 +38,7 @@
     padding-right: 16px;
   }
 
-  .places-blocks__grids_text-top:last-child {
+  .places-blocks__text-top:last-child {
     padding-bottom: 0;
     padding-top: 0;
   }
