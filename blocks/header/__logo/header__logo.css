@@ -19,7 +19,7 @@
 
 /* <= 320 */
 @media screen and (max-width: 319px) {
-  .header__logo img {
+  .header__logo {
     max-width: 100%;
   }
 }

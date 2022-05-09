@@ -12,7 +12,7 @@
 @import url(../blocks/header/__top/_language/header__top_language.css);
 @import url(../blocks/header/__top/_logo/header__top_logo.css);
 @import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/header/__image/_subtitle/header__image_subtitle.css);
+@import url(../blocks/header/__image-signature/header__image-signature.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/language/language.css);
