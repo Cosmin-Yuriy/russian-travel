@@ -1,9 +1,9 @@
-.footer__grid_link {
+.footer__link {
   color: white;
   text-decoration: none;
 }
 
-.footer__grid_link:hover {
+.footer__link:hover {
   opacity: 0.5;
   /* делаем переход плавным */
   transition: opacity 0.2s linear;
