@@ -1,8 +1,0 @@
-.baykal-dogs__link {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  grid-template-columns: repeat(1, 1fr);
-  text-decoration: none;
-  color: white;
-}

@@ -1,0 +1,46 @@
+.cover__title {
+  margin: 0;
+  max-width: 560px;
+  font-weight: 800;
+  font-size: max(32px, min(72px, calc(100vw * 4 / 50)));
+  line-height: 106%;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  align-self: end;
+  justify-self: center;
+  text-align: center;
+  opacity: 0.99;
+  color: white;
+  margin-bottom: 22px;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+  .cover__title {
+    width: 60%;
+  }
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .cover__title {
+    width: max(224px, min(425px, calc(100vw * 4 / 7)));
+    margin-bottom: 16px;
+    margin-top: max(18px, min(0px, calc(100vw * 4 / 7)));
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+  .cover__title {
+    /* overflow-wrap: break-word; */
+    width: max(50px, min(225px, calc(100vw * 4 / 7)));
+    font-size: max(7px, min(32px, calc(100vw * 4 / 32)));
+    /* padding-left: 5px;
+    padding-right: 0; */
+  }
+}

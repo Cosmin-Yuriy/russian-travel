@@ -1,14 +1,14 @@
-.content {
-  grid-area: content;
-  padding-top: 56px;
-  width: 100%;
-  /* grid-template-columns: 1fr;
-  grid-template-rows: repeat(14, min-content); */
+.cover {
+  margin: auto;
+  max-width: 1184px;
+  padding: 0 48px 0 48px;
 }
 
 /* 1024 */
 @media screen and (max-width: 1279px) {
-  padding-top: 48px;
+  .cover {
+    padding: 0;
+  }
 }
 
 /* 768 */
@@ -17,6 +17,7 @@
 
 /* => 320 */
 @media screen and (max-width: 767px) {
+
 }
 
 /* <= 320 */

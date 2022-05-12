@@ -1,25 +1,30 @@
 .header {
+  grid-area: header;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  padding: 48px 48px 0 48px;
   width: 100%;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(5, min-content);
-  padding-top: 28px;
-  justify-items: center;
+  box-sizing: border-box;
 }
 
 /* 1024 */
 @media screen and (max-width: 1279px) {
-  
+  .header
+  padding: 0 46px;
 }
 
 /* 768 */
 @media screen and (max-width: 1023px) {
+  .header
+  padding: 0 24px;
 }
 
 /* => 320 */
 @media screen and (max-width: 767px) {
   .header {
-    padding-top: 16px;
+    padding: 16px 16px 0 16px;
   }
 }
 

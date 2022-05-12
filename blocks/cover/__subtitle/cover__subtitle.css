@@ -1,10 +1,16 @@
-.footer__grid {
+.cover__subtitle {
+  margin: 0;
+  margin-top: 10px;
+  max-width: 360px;
+  grid-column: 1/1;
+  grid-row: 2/2;
+  font-weight: 400;
+  font-size: max(14px, min(18px, calc(100vw * 4 / 92)));
+  line-height: 114%;
   align-self: start;
   justify-self: center;
   text-align: center;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 112%;
+  opacity: 0.99;
 }
 
 /* 1024 */
@@ -13,22 +19,18 @@
 
 /* 768 */
 @media screen and (max-width: 1023px) {
+
 }
 
 /* => 320 */
 @media screen and (max-width: 767px) {
-  .footer__grid {
-    width: 200px;
-    text-align: left;
-    align-self: start;
-  }
 }
 
 /* <= 320 */
 @media screen and (max-width: 319px) {
-  .footer__grid {
+  .cover__subtitle {
     margin-bottom: max(0px, min(46px, calc(100vw * 4 / 500)));
-    width: max(50px, min(200px, calc(100vw * 4 / 5)));
+    width: max(50px, min(360px, calc(100vw * 4 / 5)));
     font-size: max(7px, min(32px, calc(100vw * 4 / 32)));
      overflow-wrap: break-word;
   }

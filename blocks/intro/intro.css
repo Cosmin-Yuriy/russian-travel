@@ -1,0 +1,40 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 690px;
+  padding-top: 92px;
+  padding-left: 148px;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding-top: 88px;
+    padding-left: 24px;
+  }
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+  .intro {
+  padding-top: 42px;
+  padding-left: 6px;
+  padding-right: 6px;
+  }
+}

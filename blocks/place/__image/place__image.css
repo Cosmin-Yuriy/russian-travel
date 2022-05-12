@@ -1,0 +1,25 @@
+.place__image {
+  grid-column: 1/1;
+  grid-row: 2 / span 3;
+  width: 100%;
+  padding-top: 48px;
+  object-fit: cover;
+}
+
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .place__image {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    padding-top: 0;
+  }
+}

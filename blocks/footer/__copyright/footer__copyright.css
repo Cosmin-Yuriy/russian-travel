@@ -1,10 +1,10 @@
-.footer__grid {
-  align-self: start;
-  justify-self: center;
-  text-align: center;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 112%;
+.footer__copyright {
+  width: 100%;
+  align-content: end;
+  justify-items: end;
+  text-align: right;
+  font-size: 14px;
+  line-height: 114%;
 }
 
 /* 1024 */
@@ -17,19 +17,20 @@
 
 /* => 320 */
 @media screen and (max-width: 767px) {
-  .footer__grid {
+  .footer__copyright {
     width: 200px;
+    align-content: start;
+    justify-items: strat;
     text-align: left;
-    align-self: start;
+    font-size: 14px;
+    padding-top: 16px;
   }
 }
 
 /* <= 320 */
 @media screen and (max-width: 319px) {
-  .footer__grid {
-    margin-bottom: max(0px, min(46px, calc(100vw * 4 / 500)));
+  .footer__copyright {
     width: max(50px, min(200px, calc(100vw * 4 / 5)));
     font-size: max(7px, min(32px, calc(100vw * 4 / 32)));
-     overflow-wrap: break-word;
   }
 }

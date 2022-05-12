@@ -1,0 +1,53 @@
+.place {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(3, min-content);
+  /* при изменении размера страницы меняется и масштаб колонок */
+  grid-template-columns: max(340px, min(460px, calc(100vw * 0.42802))) max(
+      352px,
+      min(484px, calc(100vw * 0.44359))
+    );
+    /* grid-template-columns: 440px 456px; */
+  /* grid-template-columns: max(340px, min(460px, calc(100vw * 4 / 10))) max( 352px, min(484px, calc(100vw * 4 / 10))); */
+  column-gap: 40px;
+  padding-bottom: 80px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+/* 1024 */
+@media screen and (max-width: 1279px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 1023px) {
+  .place {
+    column-gap: 28px;
+    padding-bottom: 73px;
+  }
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .place {
+    row-gap: 32px;
+    grid-template-columns: max(50px, min(440px, calc(100vw * 4 / 4)));
+    padding-bottom: 32px;
+    column-gap: 0;
+  }
+
+  .place:last-child {
+    padding-bottom: 0;
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+}
