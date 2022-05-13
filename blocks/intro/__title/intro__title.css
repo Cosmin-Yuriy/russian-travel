@@ -1,11 +1,9 @@
 .intro__title {
   margin: 0;
-  font-size: max(10px, min(54px, calc(100vw * 0.125)));
   line-height: 107%;
   font-weight: 900;
   padding-bottom: 40px;
-   font-size: 54px;
-
+  font-size: 54px;
 }
 
 /* => 320 */
