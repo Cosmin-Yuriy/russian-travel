@@ -13,6 +13,9 @@
   box-sizing: border-box;
 }
 
+.place:last-child {
+  padding-bottom: 0;
+}
 
 /* 1024 */
 @media screen and (max-width: 1279px) {
