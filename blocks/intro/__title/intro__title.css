@@ -2,22 +2,17 @@
   margin: 0;
   font-size: max(10px, min(54px, calc(100vw * 0.125)));
   line-height: 107%;
-  font-weight: 800;
+  font-weight: 900;
   padding-bottom: 40px;
-}
+   font-size: 54px;
 
-/* 1024 */
-@media screen and (max-width: 1279px) {
-}
-
-/* 768 */
-@media screen and (max-width: 1023px) {
 }
 
 /* => 320 */
 @media screen and (max-width: 767px) {
   .intro__title {
     padding-right: 18%;
+    font-size: 32px;
   }
 }
 
@@ -26,5 +21,6 @@
   .intro__title {
     min-width: 0;
     padding-right: 1%;
+    font-size: max(10px, min(32px, calc(100vw * 0.125)));
   }
 }

@@ -1,7 +1,7 @@
 .cover__title {
   margin: 0;
   max-width: 560px;
-  font-weight: 800;
+  font-weight: 900;
   font-size: max(32px, min(72px, calc(100vw * 4 / 50)));
   line-height: 106%;
   grid-column: 1/1;
@@ -37,10 +37,7 @@
 /* <= 320 */
 @media screen and (max-width: 319px) {
   .cover__title {
-    /* overflow-wrap: break-word; */
     width: max(50px, min(225px, calc(100vw * 4 / 7)));
     font-size: max(7px, min(32px, calc(100vw * 4 / 32)));
-    /* padding-left: 5px;
-    padding-right: 0; */
   }
 }

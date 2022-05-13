@@ -34,7 +34,7 @@
 /* <= 320 */
 @media screen and (max-width: 319px) {
   .photo-grid {
-    padding: 4px 6px 0 6px;
+    padding: 20px 6px 0 6px;
     gap: 12px;
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }

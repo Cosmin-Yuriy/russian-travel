@@ -1,4 +1,10 @@
 .footer__link {
+  align-self: start;
+  justify-self: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112%;
   color: white;
   text-decoration: none;
 }
@@ -7,4 +13,23 @@
   opacity: 0.5;
   /* делаем переход плавным */
   transition: opacity 0.2s linear;
+}
+
+/* => 320 */
+@media screen and (max-width: 767px) {
+  .footer__link {
+    width: 100%;
+    text-align: left;
+    align-self: start;
+    font-size: 24px;
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+  .footer__link {
+    /* margin-bottom: max(0px, min(46px, calc(100vw * 4 / 500))); */
+    font-size: max(7px, min(24px, calc(100vw * 4 / 32)));
+    overflow-wrap: break-word;
+  }
 }

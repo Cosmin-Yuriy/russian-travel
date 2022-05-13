@@ -38,7 +38,3 @@
     min-height: max(200px, min(640px, calc(100vw * 4 / 7)));
   }
 }
-
-/* <= 320 */
-@media screen and (max-width: 319px) {
-}

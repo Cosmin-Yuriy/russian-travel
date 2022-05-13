@@ -4,7 +4,7 @@
   flex-direction: column;
   margin: auto;
   max-width: 1280px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   /* Сглаживаем шрифты под Хромовые браузеры */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

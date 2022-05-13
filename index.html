@@ -12,19 +12,19 @@
 <body class="body">
   <div class="page">
 
-    <div class="header">
+    <header class="header">
 
       <img class="header__logo" src="./images/header__logo.svg" alt="Логотип с изображение и надписью 'Россия'">
       <ul class="header__lang">
-        <li class="header__lang-link">
-          <a href="#">Ru</a>
+        <li>
+          <a class="header__lang-link" href="#">Ru</a>
         </li>
-        <li class="header__lang-link header__lang-link_text-underline_none">
-          <a href="#">En</a>
+        <li>
+          <a class="header__lang-link header__lang-link_text-underline_none" href="#">En</a>
         </li>
       </ul>
 
-    </div>
+    </header>
 
     <main class="content">
 
@@ -40,7 +40,7 @@
         </p>
       </section>
 
-      <div class="intro">
+      <section class="intro">
 
         <h2 class="intro__title">
           Чего мы там не видели?
@@ -65,36 +65,36 @@
         <ul class="intro__lists">
           <li class="intro__list">
             Часовых поясов
-            <span class="intro__list intro__list_text-width_none-bold">
+            <span class="intro__list_text-width_none-bold">
               11
             </span>
           </li>
           <li class="intro__list">
             Объектов природного наследия ЮНЕСКО
-            <span class="intro__list intro__list_text-width_none-bold">
+            <span class="intro__list_text-width_none-bold">
               12
             </span>
           </li>
           <li class="intro__list">
             Объектов культурного наследия ЮНЕСКО
-            <span class="intro__list intro__list_text-width_none-bold">
+            <span class="intro__list_text-width_none-bold">
               16
             </span>
           </li>
           <li class="intro__list">
             Природных заповедников
-            <span class="intro__list intro__list_text-width_none-bold">
+            <span class="intro__list_text-width_none-bold">
               105
             </span>
           </li>
           <li class="intro__list">
             Аэропортов
-            <span class="intro__list intro__list_text-width_none-bold">
+            <span class="intro__list_text-width_none-bold">
               241
             </span>
           </li>
         </ul>
-      </div>
+      </section>
 
       <section class="photo-grid">
         <img src="./images/photo-grid-train.jpg" alt="Окно поезда в нем видно море и деревья" class="photo-grid__item">
@@ -236,7 +236,7 @@
             </p>
             <a href="http://vodlozero.ru" class="place__link" target="blank">http://vodlozero.ru/</a>
             </div>
-            <img src="./images/place-karelia.jpg" alt="Река в дали и по краям лес" class="place__image">
+            <img src="./images/place-karelia.jpg" alt="Река в дали и по краям лес" class="place__image place__image_column-grip_delete">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее
               Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за
@@ -265,42 +265,32 @@
 
     </main>
     <footer class="footer">
-      <ul class="footer__links">
+      <nav class="footer__links">
 
-        <li class="footer__grid">
           <a href="https://yandex.ru/maps" class="footer__link" target="blank">
             Карты
           </a>
-        </li>
 
-        <li class="footer__grid">
           <a href="https://yandex.ru/pogoda" class="footer__link" target="blank">
             Погода
           </a>
-        </li>
 
-        <li class="footer__grid">
           <a href="https://rasp.yandex.ru" class="footer__link" target="blank">
             Расписание
           </a>
-        </li>
 
-        <li class="footer__grid">
           <a href="https://calendar.yandex.ru" class="footer__link" target="blank">
             Календарь
           </a>
-        </li>
 
-        <li class="footer__grid">
           <a href="https://travel.yandex.ru" class="footer__link" target="blank">
             Путешествия
           </a>
-        </li>
 
-        <li class="footer__copyright">
-          &#169; 2022. Космин Юрий
-        </li>
-      </ul>
+      </nav>
+      <div class="footer__copyright">
+        &#169; 2022. Космин Юрий
+      </div>
     </footer>
 
   </div>

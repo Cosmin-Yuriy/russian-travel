@@ -1,15 +1,18 @@
 .footer {
   grid-area: footer;
-  width: 1184px;
-  margin: auto;
-  padding: 92px 0 24px 0;
+  width: 100%;
+  /* margin: auto; */
+  padding: 92px 48px 24px 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  box-sizing: border-box;
 }
 
 /* 1024 */
 @media screen and (max-width: 1279px) {
   .footer {
-    max-width: 984px;
-    padding: 92px 24px 24px 24px;
+    padding: 92px 48px 24px 48px;
     box-sizing: border-box;
   }
 }
@@ -17,10 +20,8 @@
 /* 768 */
 @media screen and (max-width: 1023px) {
   .footer {
-    padding-top: 88px;
-    max-width: 720px;
+    padding: 88px 24px 24px 24px;
     box-sizing: border-box;
-    padding: 88px 0 24px 0;
   }
 }
 
@@ -28,8 +29,15 @@
 @media screen and (max-width: 767px) {
   .footer {
     padding-top: 88px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 64px 0 24px 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 64px 0 24px 16px ;
+  }
+}
+
+/* <= 320 */
+@media screen and (max-width: 319px) {
+  .footer {
+    padding: 64px 0 24px 6px;
   }
 }
