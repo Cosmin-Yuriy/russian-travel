@@ -18,7 +18,7 @@
   .cover__subtitle {
     margin-bottom: max(0px, min(46px, calc(100vw * 4 / 500)));
     width: max(50px, min(360px, calc(100vw * 4 / 5)));
-    font-size: max(7px, min(32px, calc(100vw * 4 / 32)));
+    font-size: max(7px, min(14px, calc(100vw * 4 / 32)));
      overflow-wrap: break-word;
   }
 }

@@ -1,0 +1,6 @@
+/* => 320 */
+@media screen and (max-width: 767px) {
+.place__paragraph_column-grip_delete:last-child {
+  grid-row: 4/4;
+}
+}

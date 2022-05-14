@@ -7,6 +7,11 @@
   .place__website {
     padding-left: 16px;
   }
+
+  .place__website:last-child {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
 }
 
 /* <= 320 */

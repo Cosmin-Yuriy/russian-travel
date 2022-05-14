@@ -40,8 +40,8 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_column-grip/place__image_column-grip_delete.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/_column-grip/place__paragraph_column-grip_delete.css);
 /* cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);

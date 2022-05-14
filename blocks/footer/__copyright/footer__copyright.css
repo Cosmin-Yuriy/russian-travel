@@ -10,8 +10,6 @@
 /* => 320 */
 @media screen and (max-width: 767px) {
   .footer__copyright {
-    /* align-content:flex-start; */
-    /* justify-items:baseline; */
     text-align: left;
     font-size: 14px;
     padding-top: 48px;
@@ -22,7 +20,6 @@
 /* <= 320 */
 @media screen and (max-width: 319px) {
   .footer__copyright {
-    /* width: max(50px, min(200px, calc(100vw * 4 / 5))); */
     font-size: max(7px, min(14px, calc(100vw * 4 / 32)));
   }
 }

@@ -28,7 +28,6 @@
 /* <= 320 */
 @media screen and (max-width: 319px) {
   .footer__link {
-    /* margin-bottom: max(0px, min(46px, calc(100vw * 4 / 500))); */
     font-size: max(7px, min(24px, calc(100vw * 4 / 32)));
     overflow-wrap: break-word;
   }

@@ -35,8 +35,6 @@
 /* <= 320 */
 @media screen and (max-width: 319px) {
   .lead__subtitle {
-    /* padding-left: 5%;
-    padding-right: 5%; */
     padding-bottom: 7%;
   }
 }
